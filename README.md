@@ -2,6 +2,12 @@
 Laboratory works from Web programing subject
 ## Виконав: М'якуш Андрій (ІР-21)
 
-# In the last part of working on the website you have to implement all Create/Read/Update/Delete operations which must be made via the corresponding HTTP methods in your REST API.
+# lab6:Start creating  React App with a simple Home page . Your e-commerce app subject is about your entities from previous (3-5) works.
 
-To launch use npm install than npm start 
+# lab7:Continue work on  React App by adding a page with Items list.
+
+# lab8:Continue work on React App by adding a page for  your Item. Also,  make all your previous pages (Home & Catalog) more interactive.
+
+To launch use npm install 
+
+then npm start 

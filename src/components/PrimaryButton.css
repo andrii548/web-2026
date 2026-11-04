@@ -1,0 +1,37 @@
+.button {
+  display: inline-block;
+  padding: 12px 28px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.15s, box-shadow 0.15s;
+}
+
+.button--primary {
+  background: var(--ink);
+  color: #fff;
+}
+
+.button--primary:hover {
+  background: #3a3a3a;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.button--secondary {
+  background: #fff;
+  color: var(--ink);
+  border-color: var(--grey-200);
+}
+
+.button--secondary:hover {
+  background: var(--grey-100);
+}
+
+.button--full {
+  display: block;
+  width: 100%;
+}

@@ -1,0 +1,17 @@
+.catalog-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+}
+
+.catalog-search {
+  flex: 1 1 240px;
+  max-width: 420px;
+}
+
+.catalog-count {
+  margin: 16px 0 20px;
+  font-size: 14px;
+  color: var(--grey-500);
+}

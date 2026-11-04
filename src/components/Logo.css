@@ -1,0 +1,38 @@
+.logo {
+  display: inline-block;
+}
+
+.logo-svg {
+  display: block;
+  width: 130px;
+  height: auto;
+}
+
+.logo--dark {
+  color: #14532d;
+  --logo-text: var(--ink);
+  --logo-accent: var(--accent);
+}
+
+.logo--light {
+  color: #fff;
+  --logo-text: #fff;
+  --logo-accent: var(--accent);
+}
+
+.logo-accent {
+  stroke: var(--logo-accent);
+}
+
+.logo-name {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  fill: var(--logo-text);
+}
+
+.logo-slogan {
+  font-size: 5.5px;
+  letter-spacing: 3px;
+  fill: var(--logo-text);
+}
