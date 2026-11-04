@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Штучна ялинка">
+  <!-- стовбур -->
+  <rect x="91" y="166" width="18" height="20" rx="2" fill="#7a4a2a"/>
+  <!-- ярус знизу -->
+  <polygon points="100,98 38,168 162,168" fill="#1f7a45"/>
+  <!-- ярус посередині -->
+  <polygon points="100,62 52,126 148,126" fill="#2a9158"/>
+  <!-- верхній ярус -->
+  <polygon points="100,30 64,86 136,86" fill="#36a96a"/>
+  <!-- зірка -->
+  <polygon points="100,12 104,24 117,24 107,32 111,44 100,37 89,44 93,32 83,24 96,24" fill="#f2b705"/>
+  <!-- прикраси -->
+  <circle cx="84" cy="150" r="6" fill="#c0392b"/>
+  <circle cx="118" cy="156" r="6" fill="#f2b705"/>
+  <circle cx="102" cy="112" r="5" fill="#c0392b"/>
+  <circle cx="80" cy="114" r="5" fill="#f2b705"/>
+  <circle cx="108" cy="76" r="4.5" fill="#f2b705"/>
+  <circle cx="92" cy="64" r="4.5" fill="#c0392b"/>
+  <circle cx="132" cy="144" r="5" fill="#ffffff"/>
+  <circle cx="64" cy="156" r="5" fill="#ffffff"/>
+</svg>
