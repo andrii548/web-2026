@@ -1,0 +1,28 @@
+.clients__head { text-align: center; }
+.clients__title { margin-top: 14px; color: var(--color-text); font: 400 clamp(34px, 4vw, 48px) / 1.2 var(--font-display); }
+
+.clients__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: min(100% - 48px, 1300px);
+  margin: 70px auto 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 360px;
+  padding: 60px 48px 40px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 20px 60px rgba(237, 77, 71, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover { transform: translateY(-8px); box-shadow: 0 28px 70px rgba(237, 77, 71, 0.2); }
+
+.card__text { font: 300 16px/30px var(--font-body); }
+.card__author { display: flex; align-items: center; gap: 20px; }
+.card__avatar { width: 60px; height: 60px; border-radius: 50%; }
+.card__name { font: 500 16px/1 var(--font-body); }

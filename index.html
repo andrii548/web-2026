@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trafico. — Your awesome traffic permit consultant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/x-icon" href="./img/favicon.ico">
+</head>
+<body>
+  <header class="hero" id="top">
+    <img class="hero__scene" src="img/scene.png" alt="">
+    <img class="hero__truck" src="img/truck.png" alt="">
+    <div class="hero__content">
+      <div class="header">
+        <a class="logo" href="#top" aria-label="Trafico, back to top">
+          <svg class="logo__icon" viewBox="0 0 48 52" aria-hidden="true">
+            <polygon points="0,16 16,0 16,16" fill="#fff" fill-opacity=".4"/>
+            <polygon points="16,18 48,18 16,51" fill="#fff"/>
+          </svg>
+          <span class="logo__text">TRAFICO.</span>
+        </a>
+        <button class="header__toggle" type="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="site-nav">
+          <span class="header__bar"></span><span class="header__bar"></span><span class="header__bar"></span>
+        </button>
+        <nav class="header__nav" id="site-nav" aria-label="Main">
+          <ul class="header__list">
+            <li><a class="header__link" href="#about">About</a></li>
+            <li><a class="header__link" href="#how-to">How to</a></li>
+            <li><a class="header__link" href="#faqs">FAQs</a></li>
+            <li><a class="button" href="#contact">Contact us</a></li>
+          </ul>
+        </nav>
+      </div>
+      <h1 class="hero__title">Your awesome traffic permit consultant.</h1>
+      <a class="button hero__button" href="#about">Get started
+        <svg class="button__arrow" viewBox="0 0 30 12" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M0 6h28M23 1l5 5-5 5"/></svg>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section about" id="about">
+      <div class="container about__grid">
+        <div class="about__body">
+          <h2 class="label">About us</h2>
+          <p class="about__text">The occupational traffic permit is one of the most important things in the company when carrying out freight transport. In fact, it is a prerequisite for doing business traffic at all.</p>
+          <blockquote class="about__quote">How do you do when you need to obtain a commercial traffic permit for freight transport to your business?</blockquote>
+        </div>
+        <img class="about__image float" src="img/about.png" alt="Courier with a clipboard in front of a delivery truck" width="480" height="403">
+      </div>
+    </section>
+
+    <section class="section how" id="how-to">
+      <div class="container about__grid how__grid">
+        <img class="how__image float" src="img/how-to-apply.png" alt="Support agent with a checklist" width="485" height="413">
+        <div class="how__body">
+          <h2 class="label">How to apply</h2>
+          <p class="about__text">When applying for a traffic permit, there are certain requirements that you must meet that are included in the examination: requirements for professional knowledge, solid establishment, good reputation and financial resources. Important to remember is to confirm your application for a traffic permit by the company's company signer or CEO.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section clients" id="faqs">
+      <div class="clients__head">
+        <h2 class="label">About us</h2>
+        <p class="clients__title">Out Awesome Clients</p>
+      </div>
+      <ul class="clients__list">
+        <li class="card">
+          <p class="card__text">Yes, you will need to have the land owner sign the permit application as the Permittee, and you sign the permit as the Applicant or Agent for the Permittee.</p>
+          <div class="card__author"><img class="card__avatar" src="img/client-1.png" alt="" width="60" height="60"><span class="card__name">Isak Pettersson</span></div>
+        </li>
+        <li class="card">
+          <p class="card__text">From most barricade or traffic control companies located in the phone book. They employ certified Traffic Control Supervisors (TCS) who can generate and certify the traffic control plan.</p>
+          <div class="card__author"><img class="card__avatar" src="img/client-2.png" alt="" width="60" height="60"><span class="card__name">Simon Sandberg</span></div>
+        </li>
+        <li class="card">
+          <p class="card__text">An A-Line, or access restriction deed is a property right that has been obtained by CDOT for the sole purpose of prohibiting direct</p>
+          <div class="card__author"><img class="card__avatar" src="img/client-3.png" alt="" width="60" height="60"><span class="card__name">Isak Pettersson</span></div>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="footer__inner">
+      <p class="footer__copy">Copyright @ 2019</p>
+      <a class="logo" href="#top" aria-label="Trafico, back to top">
+        <svg class="logo__icon" viewBox="0 0 48 52" aria-hidden="true">
+          <polygon points="0,16 16,0 16,16" fill="#fff" fill-opacity=".4"/>
+          <polygon points="16,18 48,18 16,51" fill="#fff"/>
+        </svg>
+        <span class="logo__text">TRAFICO.</span>
+      </a>
+      <ul class="footer__social">
+        <li><a href="#" aria-label="Facebook"><img src="img/facebook.png" alt="" width="38" height="38"></a></li>
+        <li><a href="#" aria-label="Twitter"><img src="img/twitter.png" alt="" width="38" height="38"></a></li>
+        <li><a href="#" aria-label="Instagram"><img src="img/instagram.png" alt="" width="38" height="38"></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/menu.js"></script>
+</body>
+</html>

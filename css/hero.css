@@ -1,0 +1,21 @@
+.hero {
+  position: relative;
+  max-width: 1600px;
+  margin: 0 auto;
+  aspect-ratio: 1600 / 1058;
+  overflow: hidden;
+}
+
+.hero__scene { position: absolute; top: 0; left: 10.19%; width: 80.31%; height: auto; }
+.hero__truck { position: absolute; top: 62.7%; left: -12.5%; width: 50.7%; }
+
+.hero__content { position: relative; padding: 2.5% 15.75% 0 15%; }
+
+.hero__title {
+  max-width: 8em;
+  margin-top: 7.5%;
+  color: #fff;
+  font: 400 min(5.5vw, 88px) / 1.11 var(--font-display);
+}
+
+.hero__button { width: max-content; margin-top: 5.5%; }

@@ -1,0 +1,24 @@
+.about { padding-top: clamp(64px, 13vw, 210px); }
+
+.about__grid {
+  display: grid;
+  grid-template-columns: minmax(0, 570px) 480px;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.how__grid { grid-template-columns: 485px minmax(0, 450px); }
+
+.about__text { max-width: 430px; margin-top: 50px; }
+.how__body .about__text { max-width: none; }
+
+.about__quote {
+  max-width: 570px;
+  margin-top: 64px;
+  padding: 40px 40px 40px 55px;
+  border-left: 8px solid var(--color-accent);
+  background: var(--color-tint);
+  font: 400 24px/1.5 var(--font-body);
+  font-weight: bold;
+}
