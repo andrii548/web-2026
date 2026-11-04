@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "manufacturer": "Triumph Tree",
+    "height": 180,
+    "price": 3450,
+    "material": "Комбінований (ПВХ + PE)",
+    "image": ""
+  },
+  {
+    "id": 3,
+    "manufacturer": "Royal Christmas",
+    "height": 150,
+    "price": 5200,
+    "material": "Поліетилен (PE)",
+    "image": ""
+  },
+  {
+    "id": 4,
+    "manufacturer": "Kaemingk",
+    "height": 120,
+    "price": 1890,
+    "material": "ПВХ",
+    "image": ""
+  },
+  {
+    "id": 5,
+    "manufacturer": "Edelman",
+    "height": 240,
+    "price": 12750,
+    "material": "Лита хвоя (PE)",
+    "image": ""
+  },
+  {
+    "id": 6,
+    "manufacturer": "Santa's Forest",
+    "height": 90,
+    "price": 950,
+    "material": "ПВХ",
+    "image": ""
+  },
+  {
+    "id": 7,
+    "manufacturer": "Crystal Pine",
+    "height": 165,
+    "price": 4100,
+    "material": "Флокований ПВХ",
+    "image": ""
+  },
+  {
+    "id": 8,
+    "manufacturer": "National Tree",
+    "height": 195,
+    "price": 6780,
+    "material": "Комбінований (ПВХ + PE)",
+    "image": ""
+  },
+  {
+    "id": 9,
+    "manufacturer": "Ялинкар",
+    "height": 170,
+    "price": 4000,
+    "material": "Лита хвоя (PE)",
+    "image": ""
+  }
+]

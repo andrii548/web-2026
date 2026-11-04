@@ -1,16 +1,9 @@
-let trees = getTrees();
+let trees = [];
 let query = '';
 let sortByPrice = false;
 
 const list = document.querySelector('#tree-list');
 const totalEl = document.querySelector('#total');
-
-
-function getVisibleTrees() {
-  const result = trees.filter((tree) => tree.manufacturer.toLowerCase().includes(query));
-  if (sortByPrice) result.sort((a, b) => b.price - a.price);
-  return result;
-}
 
 function createCard(tree) {
   const imageClass = tree.image ? '' : 'card-image--default';
@@ -34,33 +27,44 @@ function createCard(tree) {
     </article>`;
 }
 
-function render() {
-  const html = getVisibleTrees().map(createCard).join('');
-  list.innerHTML = '';
-  list.insertAdjacentHTML('beforeend', html || '<p class="empty">Нічого не знайдено.</p>');
-  totalEl.textContent = '—';
+async function loadTrees() {
+  try {
+    const params = new URLSearchParams({ search: query, sort: sortByPrice ? 'price_desc' : '' });
+    trees = await api('/trees?' + params);
+
+    const html = trees.map(createCard).join('');
+    list.innerHTML = '';
+    list.insertAdjacentHTML('beforeend', html || '<p class="empty">Нічого не знайдено.</p>');
+    totalEl.textContent = '—';
+  } catch (error) {
+    showApiError(error);
+  }
 }
 
-document.querySelector('#count-btn').addEventListener('click', () => {
-  const total = getVisibleTrees().reduce((sum, tree) => sum + tree.price, 0);
-  totalEl.textContent = formatPrice(total);
+document.querySelector('#count-btn').addEventListener('click', async () => {
+  try {
+    const { total } = await api('/trees/total?' + new URLSearchParams({ search: query }));
+    totalEl.textContent = formatPrice(total);
+  } catch (error) {
+    showApiError(error);
+  }
 });
 
 document.querySelector('#search-form').addEventListener('submit', (event) => {
   event.preventDefault();
-  query = document.querySelector('#search-input').value.trim().toLowerCase();
-  render();
+  query = document.querySelector('#search-input').value.trim();
+  loadTrees();
 });
 
 document.querySelector('#clear-btn').addEventListener('click', () => {
   document.querySelector('#search-input').value = '';
   query = '';
-  render();
+  loadTrees();
 });
 
 document.querySelector('#sort-toggle').addEventListener('change', (event) => {
   sortByPrice = event.target.checked;
-  render();
+  loadTrees();
 });
 
 list.addEventListener('click', (event) => {
@@ -76,13 +80,16 @@ list.addEventListener('click', (event) => {
     message: `Ялинку «${tree.manufacturer}» буде видалено.`,
     buttonText: 'Видалити',
     cancelText: 'Скасувати',
-    onClose: (confirmed) => {
+    onClose: async (confirmed) => {
       if (!confirmed) return;
-      trees = trees.filter((item) => item.id !== id);
-      saveTrees(trees);
-      render();
+      try {
+        await api('/trees/' + id, 'DELETE');
+        loadTrees();
+      } catch (error) {
+        showApiError(error);
+      }
     },
   });
 });
 
-render();
+loadTrees();
