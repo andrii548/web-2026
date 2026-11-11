@@ -21,7 +21,7 @@ function Footer() {
         </div>
 
         <p className="footer-copyright">
-          {new Date().getFullYear()} Ялинковий світ © Всі права захищено
+          2026 Ялинковий світ © Всі права захищено
         </p>
       </div>
     </footer>

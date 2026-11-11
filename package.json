@@ -1,8 +1,11 @@
 {
-  "name": "lab6-8_react",
+  "name": "lab9_react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^1.21.1",
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
     "react-router-dom": "^7.18.5",
@@ -10,10 +13,13 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "server": "node backend/server.js",
+    "dev": "concurrently -n \"API,APP\" -c \"green,blue\" \"node backend/server.js\" \"react-scripts start\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "proxy": "http://localhost:5000",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -31,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.7"
   }
 }

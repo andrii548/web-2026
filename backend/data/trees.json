@@ -1,0 +1,192 @@
+[
+  {
+    "id": 1,
+    "manufacturer": "Triumph Tree",
+    "height": 180,
+    "price": 3450,
+    "material": "Комбінований (ПВХ + PE)",
+    "description": "Класична ялинка з об'ємною хвоєю, що поєднує ПВХ та поліетилен.",
+    "colors": ["#1d6b4a", "#27855d", "#32a073"],
+    "snow": false,
+    "tint": "#e9f1ec",
+    "imageUrl": "/images/trees/tree-1.jpg",
+    "availableHeights": [150, 180, 210, 240],
+    "stands": [
+      { "id": "standard", "name": "Металева хрестовина (у комплекті)", "price": 0 },
+      { "id": "wood", "name": "Дерев'яний пеньок-хрестовина", "price": 350 },
+      { "id": "rotating", "name": "Обертова електрична підставка 360°", "price": 750 },
+      { "id": "vintage", "name": "Кована підставка 'Вінтаж'", "price": 490 }
+    ],
+    "features": ["Комбіновані гілки", "Стійка конструкція", "5 років гарантії"],
+    "inStock": true
+  },
+  {
+    "id": 2,
+    "manufacturer": "Black Box Trees",
+    "height": 210,
+    "price": 8900,
+    "material": "Лита хвоя (PE)",
+    "description": "Висока ялинка з литої хвої, схожа на живе дерево навіть зблизька.",
+    "colors": ["#14532d", "#1b6b3a", "#228547"],
+    "snow": false,
+    "tint": "#e8eef5",
+    "imageUrl": "/images/trees/tree-2.jpg",
+    "availableHeights": [180, 210, 240, 270],
+    "stands": [
+      { "id": "standard", "name": "Металева хрестовина (у комплекті)", "price": 0 },
+      { "id": "wood", "name": "Дерев'яний пеньок-хрестовина", "price": 350 },
+      { "id": "rotating", "name": "Обертова електрична підставка 360°", "price": 750 },
+      { "id": "vintage", "name": "Кована підставка 'Вінтаж'", "price": 490 }
+    ],
+    "features": ["100% лита хвоя", "Максимальна реалістичність", "Не осипається"],
+    "inStock": true
+  },
+  {
+    "id": 3,
+    "manufacturer": "Royal Christmas",
+    "height": 150,
+    "price": 5200,
+    "material": "Поліетилен (PE)",
+    "description": "Щільна хвоя з поліетилену та міцна металева підставка.",
+    "colors": ["#1f7a45", "#2a9158", "#36a96a"],
+    "snow": false,
+    "tint": "#f3ece4",
+    "imageUrl": "/images/trees/tree-3.jpg",
+    "availableHeights": [120, 150, 180, 210],
+    "stands": [
+      { "id": "standard", "name": "Металева хрестовина (у комплекті)", "price": 0 },
+      { "id": "wood", "name": "Дерев'яний пеньок-хрестовина", "price": 350 },
+      { "id": "rotating", "name": "Обертова електрична підставка 360°", "price": 750 },
+      { "id": "vintage", "name": "Кована підставка 'Вінтаж'", "price": 490 }
+    ],
+    "features": ["Преміум якість хвої", "Швидка збірка шарнірного типу", "Безпечна для дітей"],
+    "inStock": true
+  },
+  {
+    "id": 4,
+    "manufacturer": "Kaemingk",
+    "height": 120,
+    "price": 1890,
+    "material": "ПВХ",
+    "description": "Компактна ялинка для кімнати чи офісу, яка швидко збирається.",
+    "colors": ["#1f7a45", "#2a9158", "#36a96a"],
+    "snow": false,
+    "tint": "#eeeaf4",
+    "imageUrl": "/images/trees/tree-4.jpg",
+    "availableHeights": [90, 120, 150],
+    "stands": [
+      { "id": "standard", "name": "Металева хрестовина (у комплекті)", "price": 0 },
+      { "id": "wood", "name": "Дерев'яний пеньок-хрестовина", "price": 350 },
+      { "id": "rotating", "name": "Обертова електрична підставка 360°", "price": 750 },
+      { "id": "vintage", "name": "Кована підставка 'Вінтаж'", "price": 490 }
+    ],
+    "features": ["Компактна та легка", "Гнучкі гілки", "Бюджетний варіант"],
+    "inStock": true
+  },
+  {
+    "id": 5,
+    "manufacturer": "Edelman",
+    "height": 240,
+    "price": 12750,
+    "material": "Лита хвоя (PE)",
+    "description": "Преміальна ялинка для просторих залів, холів і вітрин.",
+    "colors": ["#14532d", "#1b6b3a", "#228547"],
+    "snow": false,
+    "tint": "#e6f0ef",
+    "imageUrl": "/images/trees/tree-5.jpg",
+    "availableHeights": [210, 240, 270, 300],
+    "stands": [
+      { "id": "standard", "name": "Металева хрестовина (у комплекті)", "price": 0 },
+      { "id": "wood", "name": "Дерев'яний пеньок-хрестовина", "price": 350 },
+      { "id": "rotating", "name": "Обертова електрична підставка 360°", "price": 750 },
+      { "id": "vintage", "name": "Кована підставка 'Вінтаж'", "price": 490 }
+    ],
+    "features": ["Велична висота", "Посилений металевий стовбур", "Густа розкішна крона"],
+    "inStock": true
+  },
+  {
+    "id": 6,
+    "manufacturer": "Santa's Forest",
+    "height": 90,
+    "price": 950,
+    "material": "ПВХ",
+    "description": "Невелика настільна ялинка, яка стане гарним подарунком.",
+    "colors": ["#1f7a45", "#2a9158", "#36a96a"],
+    "snow": false,
+    "tint": "#f4efe3",
+    "imageUrl": "/images/trees/tree-6.jpg",
+    "availableHeights": [60, 90, 120],
+    "stands": [
+      { "id": "standard", "name": "Металева хрестовина (у комплекті)", "price": 0 },
+      { "id": "wood", "name": "Дерев'яний пеньок-хрестовина", "price": 350 },
+      { "id": "rotating", "name": "Обертова електрична підставка 360°", "price": 750 },
+      { "id": "vintage", "name": "Кована підставка 'Вінтаж'", "price": 490 }
+    ],
+    "features": ["Настільний формат", "Зручне зберігання", "Ідеально для декору"],
+    "inStock": true
+  },
+  {
+    "id": 7,
+    "manufacturer": "Crystal Pine",
+    "height": 165,
+    "price": 4100,
+    "material": "Флокований ПВХ",
+    "description": "Хвоя з ефектом снігу створює справжню зимову атмосферу.",
+    "colors": ["#2f7d6d", "#3b9684", "#4aae9b"],
+    "snow": true,
+    "tint": "#e9f0f3",
+    "imageUrl": "/images/trees/tree-7.jpg",
+    "availableHeights": [135, 165, 195],
+    "stands": [
+      { "id": "standard", "name": "Металева хрестовина (у комплекті)", "price": 0 },
+      { "id": "wood", "name": "Дерев'яний пеньок-хрестовина", "price": 350 },
+      { "id": "rotating", "name": "Обертова електрична підставка 360°", "price": 750 },
+      { "id": "vintage", "name": "Кована підставка 'Вінтаж'", "price": 490 }
+    ],
+    "features": ["Засніжені гілочки", "Натуральні шишки в декорі", "Зимова казка"],
+    "inStock": true
+  },
+  {
+    "id": 8,
+    "manufacturer": "National Tree",
+    "height": 195,
+    "price": 6780,
+    "material": "Комбінований (ПВХ + PE)",
+    "description": "Пишна ялинка з рівномірною хвоєю та стійкою підставкою.",
+    "colors": ["#1d6b4a", "#27855d", "#32a073"],
+    "snow": false,
+    "tint": "#f1e9ec",
+    "imageUrl": "/images/trees/tree-8.jpg",
+    "availableHeights": [165, 195, 225],
+    "stands": [
+      { "id": "standard", "name": "Металева хрестовина (у комплекті)", "price": 0 },
+      { "id": "wood", "name": "Дерев'яний пеньок-хрестовина", "price": 350 },
+      { "id": "rotating", "name": "Обертова електрична підставка 360°", "price": 750 },
+      { "id": "vintage", "name": "Кована підставка 'Вінтаж'", "price": 490 }
+    ],
+    "features": ["Пишна розлога крона", "Міцні гілки для важких іграшок", "Довговічний каркас"],
+    "inStock": true
+  },
+  {
+    "id": 9,
+    "manufacturer": "Winter Frost",
+    "height": 150,
+    "price": 5600,
+    "material": "Флокований ПВХ",
+    "description": "Світла засніжена ялинка, що пасує до сучасних інтер'єрів.",
+    "colors": ["#2f7d6d", "#3b9684", "#4aae9b"],
+    "snow": true,
+    "tint": "#edf0f2",
+    "imageUrl": "/images/trees/tree-9.jpg",
+    "availableHeights": [120, 150, 180, 210],
+    "stands": [
+      { "id": "standard", "name": "Металева хрестовина (у комплекті)", "price": 0 },
+      { "id": "wood", "name": "Дерев'яний пеньок-хрестовина", "price": 350 },
+      { "id": "rotating", "name": "Обертова електрична підставка 360°", "price": 750 },
+      { "id": "vintage", "name": "Кована підставка 'Вінтаж'", "price": 490 }
+    ],
+    "features": ["Ефект паморозі", "Густе напилення снігу", "Модний скандинавський стиль"],
+    "inStock": true
+  }
+]
+
